@@ -1,5 +1,14 @@
-.quoteContainer {
+html {
     background-color: antiquewhite;
+    color: #2F4F4F ;
+}
+.quoteGeneratorView {
+    background-color: coral;
+    /* color: #2F4F4F; */
     max-height: 50%;
     max-width: 50%;
+}
+
+.quoteDisplayView {
+    display: none;
 }

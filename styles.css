@@ -1,6 +1,6 @@
-html {
+body {
     background-color: antiquewhite;
-    color: #2F4F4F ;
+    color: #2F4F4F;
 }
 .quoteGeneratorView {
      display: flex;
@@ -11,10 +11,6 @@ html {
     background-color: coral;
     max-width: 50%;
     padding: 20px;
-}
-
-.quoteDisplayView {
-    display: none;
 }
 
 #quoteGeneratorBtn {
@@ -28,6 +24,13 @@ html {
     box-shadow: 5px 5px 18px #888888;
    
 }
+
+#quote, #author {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 
 footer {
     display: flex;
